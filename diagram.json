@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Adson Oliveira",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 16.05,
+      "left": -15.6,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -2, "left": 96, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:GND", "pico:GND.8", "black", [ "h-19.2", "v19.2" ] ],
+    [ "servo1:V+", "pico:3V3_EN", "red", [ "h0" ] ],
+    [ "pico:GP22", "servo1:PWM", "green", [ "h20.4", "v-67.4" ] ]
+  ],
+  "dependencies": {}
+}
