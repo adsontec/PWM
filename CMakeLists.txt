@@ -55,7 +55,8 @@ target_include_directories(PWM PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(PWM 
-        
+        pico_stdlib
+        hardware_pwm
         )
 
 pico_add_extra_outputs(PWM)
