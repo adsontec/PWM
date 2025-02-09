@@ -33,8 +33,8 @@ Ao iniciar o programa o servomotor vai girar em uma ángulo de 180 Graus, depois
 # ⚫ Duty Cycle 0
 # $D_{\text{C}} = \frac{500}{20000}$ ➡️ $D_{\text{C}} = 0,025$
 
-## Link com a produção do vídeo 📀
-
+## Link com a produção do vídeo 🎥
+**🎬 Este é o vídeo do  projeto no [youtube](https://youtu.be/RpLuSQFItqo)**
 
 ## Imagem do Projeto ✔️
 ![image](https://github.com/user-attachments/assets/85a31dd9-7946-401b-b1aa-aead5a62eadc)
